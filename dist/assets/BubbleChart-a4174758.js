@@ -1,2 +1,0 @@
-import{B as e}from"./index-966d58f1.js";import{C as n,p,a as r,b as s,P as i,L as l}from"./Dashboard-50cdbf78.js";import{d as m,a as u,g as c,u as d}from"./index-1ba8e26d.js";import"./useProjects-f59a2695.js";import"./utils-b2fc192b.js";import"./ProjectStatusBadge.vue_vue_type_script_setup_true_lang-ea348a3a.js";const k=m({__name:"BubbleChart",props:{data:{},options:{}},setup(t){n.register(p,r,s,i,l);const a=t;return(o,_)=>(u(),c(d(e),{data:a.data,options:o.options},null,8,["data","options"]))}});export{k as default};
-//# sourceMappingURL=BubbleChart-a4174758.js.map
