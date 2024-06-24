@@ -2,4 +2,7 @@ version: 2
 updates:
   - package-ecosystem: "npm"
     directory: "/"
-    target-branch: "develop"
+    target-branch: "main"
+    # Check the npm registry for updates every day (weekdays)
+    schedule:
+      interval: "daily"
