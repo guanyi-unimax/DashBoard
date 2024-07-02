@@ -1,7 +1,7 @@
 export const earningsColor = '#49A8FF'
 export const expensesColor = '#154EC1'
 
-export const months: string[] = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+export const months: string[] = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul']
 
 export type Revenues = {
   month: string

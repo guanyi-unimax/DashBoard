@@ -13,8 +13,8 @@ import Timeline from './cards/Timeline.vue'
   <h1 class="page-title font-bold"></h1>
   <section class="flex flex-col gap-4">
     <div class="flex flex-col sm:flex-row gap-4">
-      <RevenueUpdates class="w-full sm:w-[70%]" />
-      <div class="flex flex-col gap-4 w-full sm:w-[30%]">
+      <RevenueUpdates class="w-full sm:w-[50%]" />
+      <div class="flex flex-col gap-4 w-full sm:w-[50%]">
         <YearlyBreakup class="h-full" />
         <MonthlyEarnings />
       </div>
@@ -24,9 +24,9 @@ import Timeline from './cards/Timeline.vue'
       <!-- <RevenueByLocationMap class="w-full md:w-4/6" /> -->
       <!-- <RegionRevenue class="w-full md:w-2/6" /> -->
     </div>
-    <div class="flex flex-col md:flex-row gap-4">
-      <ProjectTable class="w-full md:w-1/2" />
-      <Timeline class="w-full md:w-1/2" />
+    <div class="flex flex-col sm:flex-row gap-4">
+      <ProjectTable class="w-full sm:w-1/2" />
+      <Timeline class="w-full sm:w-1/2" />
     </div>
   </section>
 </template>
