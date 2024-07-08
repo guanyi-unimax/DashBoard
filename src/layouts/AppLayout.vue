@@ -52,7 +52,7 @@ const isTablet = ref(false)
 const { isSidebarMinimized } = storeToRefs(GlobalStore)
 
 const onResize = () => {
-  isSidebarMinimized.value = breakpoints.mdDown
+  isSidebarMinimized.value = true
   isMobile.value = breakpoints.smDown
   isTablet.value = breakpoints.mdDown
   sidebarMinimizedWidth.value = isMobile.value ? '0' : '4.5rem'
